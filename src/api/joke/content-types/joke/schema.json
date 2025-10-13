@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jokes",
+  "info": {
+    "singularName": "joke",
+    "pluralName": "jokes",
+    "displayName": "joke"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tittle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "isPublished": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "string"
+    },
+    "uploadateTime": {
+      "type": "datetime"
+    }
+  }
+}
